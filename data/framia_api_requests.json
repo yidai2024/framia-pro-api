@@ -1,0 +1,94 @@
+[
+  {
+    "timestamp": "2026-04-16T16:14:34.231532",
+    "method": "GET",
+    "url": "https://framia.pro/auth/login?returnTo=%2Fcreate",
+    "domain": "framia.pro",
+    "path": "/auth/login",
+    "resource_type": "document",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null
+  },
+  {
+    "timestamp": "2026-04-16T16:14:34.456710",
+    "method": "GET",
+    "url": "https://login.framia.pro/authorize?audience=https%3A%2F%2Fframia.pro&scope=openid+profile+email+offline_access&client_id=WUwcEbgDTyRAWZFIIALMujp1VDss4wQW&redirect_uri=https%3A%2F%2Fframia.pro%2Fauth%2Fcallback&response_type=code&code_challenge=jE__6raNgu5ng1QP6oYlMHlPywSo4O-ULu5U_d6pG7M&code_challenge_method=S256&state=fVUyk-o3cv38b42xIbcvXEC1t-ONlSLZ00sWtoeLkMo&nonce=KrdH4kK3UMNFz8V09q_0GoZzN1buc4MrgxnSSC5NT68",
+    "domain": "login.framia.pro",
+    "path": "/authorize",
+    "resource_type": "document",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null
+  },
+  {
+    "timestamp": "2026-04-16T16:14:34.841014",
+    "method": "GET",
+    "url": "https://login.framia.pro/u/login/identifier?state=hKFo2SBEYTcwam90SWNsNzFiaGdubi16MlpFUVgyOE54WWI1TKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFZ3aERGalViMEd3cEl2T3Y0M01NRVhGWmlDRkp1N3lMo2NpZNkgV1V3Y0ViZ0RUeVJBV1pGSUlBTE11anAxVkRzczR3UVc",
+    "domain": "login.framia.pro",
+    "path": "/u/login/identifier",
+    "resource_type": "document",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 200,
+    "response_headers": {
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "cache-control": "no-store, max-age=0, no-transform",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "9ed1bcbbcee08467-SJC",
+      "content-language": "en",
+      "content-security-policy": "frame-ancestors 'none'",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Thu, 16 Apr 2026 08:14:34 GMT",
+      "etag": "W/\"c278-2waeM3yM7hw8pK1VqsjuoxdAxaI\"",
+      "expires": "Thu, 16 Apr 2026 08:14:34 GMT",
+      "pragma": "no-cache",
+      "referrer-policy": "same-origin",
+      "server": "cloudflare",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "vary": "Accept-Encoding",
+      "x-auth0-l": "0.026",
+      "x-auth0-requestid": "9fb7060e5503c7016a44",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "deny",
+      "x-ratelimit-limit": "100",
+      "x-ratelimit-remaining": "94",
+      "x-ratelimit-reset": "1776327276",
+      "x-robots-tag": "noindex, nofollow",
+      "x-xss-protection": "1; mode=block"
+    },
+    "response_body": "<!DOCTYPE html>\n  \n    <html lang=\"en\">\n  \n  <head>\n        <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    \n      <meta name=\"ulp-version\" content=\"1.109.0\">\n    \n    \n    \n    <meta name=\"robots\" content=\"noindex, nofollow\">\n    \n    \n    <link rel=\"stylesheet\" href=\"https://cdn.auth0.com/ulp/react-components/1.186.0/css/main_wcag_compliant.cdn.min.css\">\n    <style id=\"custom-styles-container\">\n      \n        \n\n\n\n\n        \n          :root, .af-custom-form-container .af-form {\n    --primary-color: #054436;\n  }\n        \n      \n\n        \n          :root, .af-custom-form-container .af-form {\n    --button-font-color: #ffffff;\n  }\n        \n      \n\n        \n          :root {\n    --secondary-button-border-color: #c9cace;\n    --social-button-border-color: #c9cace;\n    --radio-button-border-color: #c9cace;\n  }\n        \n      \n\n        \n          :root {\n    --secondary-button-text-color: #1e212a;\n  }\n        \n      \n\n        \n          :root {\n    --computed-readonly-color: #c2c8d0;\n  }\n        \n      \n\n        \n          :root {\n    --link-color: #054436;\n  }\n        \n      \n\n        \n          :root {\n    --title-font-color: #1e212a;\n  }\n        \n      \n\n        \n          :root {\n    --font-default-color: #1e212a;\n  }\n        \n      \n\n        \n          :root {\n    --widget-background-color: #ffffff;\n  }\n        \n      \n\n        \n          :root {\n    --box-border-color: #c9cace;\n  }\n        \n      \n\n        \n          :root {\n    --font-light-color: #65676e;\n  }\n        \n      \n\n        \n          :root {\n    --input-text-color: #000000;\n  }\n        \n      \n\n        \n          :root {\n    --input-border-color: #c9cace;\n    --border-default-color: #c9cace;\n  }\n        \n      \n\n        \n          :root {\n    --input-background-color: #ffffff;\n  }\n        \n      \n\n        \n          :root {\n    --icon-default-color: #65676e;\n  }\n        \n      \n\n        \n          :root {\n    --error-color: #d03c38;\n    --error-text-color: #ffffff;\n  }\n        \n      \n\n        \n          :root {\n    --success-color: #13a688;\n  }\n        \n      \n\n        \n          :root {\n    --base-focus-color: #054436;\n    --transparency-focus-color: rgba(5,68,54, 0.15);\n  }\n        \n      \n\n        \n          :root {\n    --base-hover-color: #000000;\n    --transparency-hover-color: rgba(0,0,0, var(--hover-transparency-value));\n  }\n        \n      \n\n        \n          :root {\n    --ulp-captcha-widget-theme: light;\n  }\n        \n      \n\n\n\n\n        \n          \n        \n      \n\n        \n          html, :root, .af-custom-form-container .af-form {\n    font-size: 16px;\n    --default-font-size: 16px;\n  }\n        \n      \n\n        \n          body {\n    --title-font-size: 1.5rem;\n    --title-font-weight: var(--font-default-weight);\n  }\n        \n      \n\n        \n          .c25421b0e {\n    font-size: 0.875rem;\n    font-weight: var(--font-default-weight);\n  }\n        \n      \n\n        \n          .c935aed04 {\n    font-size: 0.875rem;\n    font-weight: var(--font-default-weight);\n  }\n  .ulp-passkey-benefit-heading {\n    font-size: 1.025rem;\n  }\n        \n      \n\n        \n          .cd1a990da, .cf0fc6d19 {\n    font-size: 1rem;\n    font-weight: var(--font-default-weight);\n  }\n        \n      \n\n        \n          body {\n    --ulp-label-font-size: 1rem;\n    --ulp-label-font-weight: var(--font-default-weight);\n  }\n        \n      \n\n        \n          .cb1e24496, .c732759d9, [id^='ulp-container-'] a {\n    font-size: 0.875rem;\n    font-weight: var(--font-bold-weight) !important;\n  }\n        \n      \n\n        \n          \n        \n      \n\n\n\n\n        \n          :root {\n    --button-border-width: 1px;\n    --social-button-border-width: 1px;\n    --radio-border-width: 1px;\n  }\n        \n      \n\n        \n          body {\n    --button-border-radius: 9999px;\n    --radio-border-radius: 9999px;\n  }\n        \n      \n\n        \n          :root {\n    --input-border-width: 1px;\n  }\n        \n      \n\n        \n          body {\n    --input-border-radius: 3px;\n  }\n\n  .af-custom-form-container .af-form {\n    --border-radius: 3px;\n  }\n        \n      \n\n        \n          :root {\n    --border-radius-outer: 15px;\n  }\n        \n      \n\n        \n          :root {\n    --box-border-width: 0px;\n  }\n        \n      \n\n        \n          \n        \n      \n\n\n\n\n        \n          \n    body {\n      --logo-alignment: 0 auto;\n    }\n  \n        \n      \n\n        \n          \n    .cc90051d2 {\n      content: url('https://assets-cdn.framia.pro/home/favicon.svg');\n    }\n  \n        \n      \n\n        \n          body {\n    --logo-height: 60px;\n  }\n  .cc90051d2 {\n    height: var(--logo-height);\n  }\n  \n        \n      \n\n        \n          \n    body {\n      --header-alignment: center;\n    }\n  \n        \n      \n\n        \n          \n        \n      \n\n\n\n\n        \n          .c6ea08187 {\n    --page-background-alignment: left;\n  }\n        \n      \n\n        \n          body {\n    --page-background-color: #000000;\n  }\n        \n      \n\n    "
+  },
+  {
+    "timestamp": "2026-04-16T16:14:35.139444",
+    "method": "GET",
+    "url": "https://assets-cdn.framia.pro/home/login-background.png",
+    "domain": "assets-cdn.framia.pro",
+    "path": "/home/login-background.png",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cdn.auth0.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  }
+]
